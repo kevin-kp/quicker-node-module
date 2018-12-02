@@ -1,0 +1,26 @@
+{
+  "name": "quickeraddon",
+  "version": "0.0.1",
+  "description": "Provide a module for quicker to use it without needing a modified NodeJS",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-kp/quicker-node-module.git"
+  },
+  "author": "Kevin Pittevils",
+  "bugs": {
+    "url": "https://github.com/kevin-kp/quicker-node-module/issues"
+  },
+  "homepage": "https://github.com/kevin-kp/quicker-node-module#readme",
+  "devDependencies": {
+    "node-gyp": "^3.8.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^1.6.2"
+  }
+}
